@@ -1,0 +1,44 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environment ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Streamlit ---
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# --- Environment Variables (秘密の鍵とかを入れるなら) ---
+.env
+.venv
+env.bak
+venv.bak
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logic/Data (もしログとかを保存するなら) ---
+*.log
